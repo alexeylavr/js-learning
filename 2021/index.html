@@ -20,8 +20,8 @@
 		<nav>
 			<a href="#">Subscribe</a>
 			<a href="#about">About</a>
-			<a href="#">Posts</a>
-			<a href="#">Our Group</a>
+			<a href="#posts">Posts</a>
+			<a href="#group">Our Group</a>
 			<button>sign up</button>
 		</nav>
 	</header>
@@ -38,17 +38,74 @@
 			</div>
 			<a href="">Continue reading</a>
 		</section>
-		<section></section>
-		<section></section>
-		<section></section>
-		<section></section>
+		<hr>
+		<section id="posts">
+			<h2 class="section_heading">Latest post</h2>
+			<div class="posts__info">
+				<h3>Free html lessons</h3>
+				<p> Made by
+					<a href="">Alexey Lavrinovich</a>
+					March 1, 2021
+				</p>
+				<p>
+					Today, instead of lying in bed, you can visit
+					<i>free</i> html/css lesson
+				</p>
+				<p>
+					<b>Pluses:</b>
+				</p>
+				<p>It's free</p>
+				<p>You don't need to know anything about html</p>
+				<p>You will study with your team</p>
+			</div>
+		</section>
+		<hr>
+		<section id="group">
+			<h2 class="section_heading__group">Our group</h2>
+			<ol>
 
-
-
-
-
-
+			</ol>
+			<img class="group_photo" src="./assets/images/group.jpg" alt="group_photo">
+		</section>
+		<section>
+			<h2 class="article-caption">Contact Us</h2>
+			<form action="submit" id="contact_form">
+				<label for="name">Your name</label>
+				<input type="text" name="food" id="name">
+				<label for="user-pw">Your Password</label>
+				<input type="password" name="user-pw" id="user-pw" required>
+				<br>
+				<br>
+				<fieldset>
+					<legend>Who you want to notify?</legend>
+					<div>
+						<input type="checkbox" name="member" id="Sviatoslav" value="Sviatoslav">
+						<label for="Sviatoslav">Sviatoslav</label>
+					</div>
+					<br>
+					<div>
+						<input type="checkbox" name="member" id="Vitol" value="Vitol">
+						<label for="Vitol">Vitol</label>
+					</div>
+					<br>
+					<div>
+						<input type="checkbox" name="member" id="Anastasia" value="Anastasia">
+						<label for="Anastasia">Anastasia</label>
+					</div>
+				</fieldset>
+				<br>
+				<button id="send" type="submit">Send messge</button>
+			</form>
+		</section>
 	</main>
+	<footer>
+		<h3>Socials</h3>
+		<div>
+			<a href="">Instagram</a>
+			<a href="">VK</a>
+			<a href="" target="">Telegram</a>
+		</div>
+	</footer>
 </body>
 
 </html>

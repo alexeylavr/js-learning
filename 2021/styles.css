@@ -22,9 +22,13 @@ nav {
 }
 .section_heading {
 	font-size: 18px;
+	margin-left: 50px;
+}
+.section_heading__group {
+	font-size: 18px;
+	margin-left: 30px;
 }
 .about__info {
-	background-color: orange;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -34,4 +38,37 @@ nav {
 	height: 300;
 	border-radius: 50%;
 	margin-left: 40px;
+}
+
+.posts__info {
+	outline: 2px;
+	outline-style: dotted;
+}
+
+.group_photo {
+	position: relative;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: auto;
+	opacity: 0.5;
+}
+
+#contact_form {
+	display: flex;
+	flex-direction: column;
+	width: 400px;
+	font-size: 18px;
+}
+
+#contact_form input{
+	font-size: 20px;
+}
+
+fieldset {
+	width: 200px;
+}
+
+#contact_form button {
+	width: 100px;	
 }
