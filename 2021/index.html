@@ -51,19 +51,39 @@
 					Today, instead of lying in bed, you can visit
 					<i>free</i> html/css lesson
 				</p>
-				<p>
-					<b>Pluses:</b>
-				</p>
-				<p>It's free</p>
-				<p>You don't need to know anything about html</p>
-				<p>You will study with your team</p>
+				<ol>
+					<p><b>Pluses:</b></p>
+					<ul>
+						<li>It's free</li>
+						<li>You don't need to know anything about html</li>
+						<li>You will study with your team</li>
+					</ul>
+				</ol>
 			</div>
 		</section>
 		<hr>
 		<section id="group">
 			<h2 class="section_heading__group">Our group</h2>
 			<ol>
-
+				<li><b>Alexey Lavrinovich</b>
+					<ul>
+						<li>Big brain</li>
+						<li>Sole of company</li>
+						<li>Just a good guy</li>
+					</ul>
+				</li>
+				<li><b>Vera Golikova</b>
+					<ul>
+						<li>Love study</li>
+						<li>Was born with a camera in her hands</li>
+						<li>Never give up</li>
+					</ul>
+				</li>
+				<li><b>Kostya</b>
+					<ul>
+						<li>Team lead</li>
+					</ul>
+				</li>
 			</ol>
 			<img class="group_photo" src="./assets/images/group.jpg" alt="group_photo">
 		</section>
@@ -73,7 +93,9 @@
 				<label for="name">Your name</label>
 				<input type="text" name="food" id="name">
 				<label for="user-pw">Your Password</label>
-				<input type="password" name="user-pw" id="user-pw" required>
+				<input type="password" name="user-pw" id="user-data" required>
+				<label for="user-em">E-mail</label>
+				<input type="email" name="user-em" id="user-data" required>
 				<br>
 				<br>
 				<fieldset>
@@ -94,16 +116,24 @@
 					</div>
 				</fieldset>
 				<br>
+				<select name="user-data" id="select">
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5</option>
+					<option value="6">6</option>
+				</select>
 				<button id="send" type="submit">Send messge</button>
 			</form>
 		</section>
 	</main>
-	<footer>
+	<footer class="name_container">
 		<h3>Socials</h3>
-		<div>
+		<div class="footer">
 			<a href="">Instagram</a>
 			<a href="">VK</a>
-			<a href="" target="">Telegram</a>
+			<a href="https://www.google.com" target="blank">Telegram</a>
 		</div>
 	</footer>
 </body>
